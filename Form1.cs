@@ -88,6 +88,7 @@ namespace hxsfxIPSet
         private void btn_getNetworkInterfaceName_Click(object sender, EventArgs e)
         {
             this.cb_adapter.SelectedIndex = -1;
+            this.cb_adapter.Items.Clear();
             InitalNetworkInterfaceName();
         }
         private void btn_modify_Click(object sender, EventArgs e)
